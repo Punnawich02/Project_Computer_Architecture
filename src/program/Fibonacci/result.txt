@@ -2,6 +2,7 @@
 state:
 	pc 0
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -21,7 +22,7 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
 		reg[ 1 ] 0
@@ -37,6 +38,7 @@ end state
 state:
 	pc 1
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -56,10 +58,10 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 0
 		reg[ 3 ] 0
 		reg[ 4 ] 0
@@ -72,6 +74,7 @@ end state
 state:
 	pc 2
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -91,10 +94,10 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 0
 		reg[ 4 ] 0
@@ -107,6 +110,7 @@ end state
 state:
 	pc 3
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -126,10 +130,10 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 0
 		reg[ 4 ] 0
@@ -142,6 +146,7 @@ end state
 state:
 	pc 4
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -161,10 +166,10 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 0
 		reg[ 4 ] -1
@@ -177,6 +182,7 @@ end state
 state:
 	pc 5
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -196,14 +202,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 0
 		reg[ 4 ] -1
-		reg[ 5 ] 6
+		reg[ 5 ] 7
 		reg[ 6 ] 0
 		reg[ 7 ] 0
 end state
@@ -212,6 +218,7 @@ end state
 state:
 	pc 6
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -231,14 +238,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 0
 		reg[ 4 ] -1
-		reg[ 5 ] 6
+		reg[ 5 ] 7
 		reg[ 6 ] 0
 		reg[ 7 ] 0
 end state
@@ -247,6 +254,7 @@ end state
 state:
 	pc 7
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -266,14 +274,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 0
 		reg[ 4 ] -1
-		reg[ 5 ] 6
+		reg[ 5 ] 7
 		reg[ 6 ] 0
 		reg[ 7 ] 0
 end state
@@ -282,6 +290,7 @@ end state
 state:
 	pc 8
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -301,13 +310,121 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 0
 		reg[ 4 ] -1
+		reg[ 5 ] 7
+		reg[ 6 ] 1
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 9
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 1
+		reg[ 3 ] 1
+		reg[ 4 ] -1
+		reg[ 5 ] 7
+		reg[ 6 ] 1
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 10
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 1
+		reg[ 3 ] 1
+		reg[ 4 ] -1
+		reg[ 5 ] 7
+		reg[ 6 ] 1
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 11
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 1
+		reg[ 3 ] 1
+		reg[ 4 ] -1
 		reg[ 5 ] 6
 		reg[ 6 ] 1
 		reg[ 7 ] 0
@@ -315,8 +432,9 @@ end state
 
 @@@
 state:
-	pc 9
+	pc 12
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -336,10 +454,10 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 1
 		reg[ 4 ] -1
@@ -350,8 +468,9 @@ end state
 
 @@@
 state:
-	pc 10
+	pc 7
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -371,10 +490,10 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 1
 		reg[ 4 ] -1
@@ -385,113 +504,9 @@ end state
 
 @@@
 state:
-	pc 11
-	memory:
-		mem[ 1 ] 8519698
-		mem[ 2 ] 8585235
-		mem[ 3 ] 8650769
-		mem[ 4 ] 8716308
-		mem[ 5 ] 16842759
-		mem[ 6 ] 17432584
-		mem[ 7 ] 1703942
-		mem[ 8 ] 131075
-		mem[ 9 ] 393218
-		mem[ 10 ] 2883589
-		mem[ 11 ] 17104900
-		mem[ 12 ] 16842746
-		mem[ 13 ] 196611
-		mem[ 14 ] 16777217
-		mem[ 15 ] 131075
-		mem[ 16 ] 25165824
-		mem[ 17 ] -1
-		mem[ 18 ] 1
-		mem[ 19 ] 0
-		mem[ 20 ] 6
-	registers:
-		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 1
-		reg[ 3 ] 1
-		reg[ 4 ] -1
-		reg[ 5 ] 5
-		reg[ 6 ] 1
-		reg[ 7 ] 0
-end state
-
-@@@
-state:
-	pc 12
-	memory:
-		mem[ 1 ] 8519698
-		mem[ 2 ] 8585235
-		mem[ 3 ] 8650769
-		mem[ 4 ] 8716308
-		mem[ 5 ] 16842759
-		mem[ 6 ] 17432584
-		mem[ 7 ] 1703942
-		mem[ 8 ] 131075
-		mem[ 9 ] 393218
-		mem[ 10 ] 2883589
-		mem[ 11 ] 17104900
-		mem[ 12 ] 16842746
-		mem[ 13 ] 196611
-		mem[ 14 ] 16777217
-		mem[ 15 ] 131075
-		mem[ 16 ] 25165824
-		mem[ 17 ] -1
-		mem[ 18 ] 1
-		mem[ 19 ] 0
-		mem[ 20 ] 6
-	registers:
-		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 1
-		reg[ 3 ] 1
-		reg[ 4 ] -1
-		reg[ 5 ] 5
-		reg[ 6 ] 1
-		reg[ 7 ] 0
-end state
-
-@@@
-state:
-	pc 7
-	memory:
-		mem[ 1 ] 8519698
-		mem[ 2 ] 8585235
-		mem[ 3 ] 8650769
-		mem[ 4 ] 8716308
-		mem[ 5 ] 16842759
-		mem[ 6 ] 17432584
-		mem[ 7 ] 1703942
-		mem[ 8 ] 131075
-		mem[ 9 ] 393218
-		mem[ 10 ] 2883589
-		mem[ 11 ] 17104900
-		mem[ 12 ] 16842746
-		mem[ 13 ] 196611
-		mem[ 14 ] 16777217
-		mem[ 15 ] 131075
-		mem[ 16 ] 25165824
-		mem[ 17 ] -1
-		mem[ 18 ] 1
-		mem[ 19 ] 0
-		mem[ 20 ] 6
-	registers:
-		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 1
-		reg[ 3 ] 1
-		reg[ 4 ] -1
-		reg[ 5 ] 5
-		reg[ 6 ] 1
-		reg[ 7 ] 0
-end state
-
-@@@
-state:
 	pc 8
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -511,14 +526,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 1
 		reg[ 4 ] -1
-		reg[ 5 ] 5
+		reg[ 5 ] 6
 		reg[ 6 ] 2
 		reg[ 7 ] 0
 end state
@@ -527,6 +542,7 @@ end state
 state:
 	pc 9
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -546,13 +562,85 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 1
 		reg[ 3 ] 1
 		reg[ 4 ] -1
+		reg[ 5 ] 6
+		reg[ 6 ] 2
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 10
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 2
+		reg[ 3 ] 1
+		reg[ 4 ] -1
+		reg[ 5 ] 6
+		reg[ 6 ] 2
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 11
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 2
+		reg[ 3 ] 1
+		reg[ 4 ] -1
 		reg[ 5 ] 5
 		reg[ 6 ] 2
 		reg[ 7 ] 0
@@ -560,8 +648,9 @@ end state
 
 @@@
 state:
-	pc 10
+	pc 12
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -581,10 +670,10 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 2
 		reg[ 3 ] 1
 		reg[ 4 ] -1
@@ -595,78 +684,9 @@ end state
 
 @@@
 state:
-	pc 11
-	memory:
-		mem[ 1 ] 8519698
-		mem[ 2 ] 8585235
-		mem[ 3 ] 8650769
-		mem[ 4 ] 8716308
-		mem[ 5 ] 16842759
-		mem[ 6 ] 17432584
-		mem[ 7 ] 1703942
-		mem[ 8 ] 131075
-		mem[ 9 ] 393218
-		mem[ 10 ] 2883589
-		mem[ 11 ] 17104900
-		mem[ 12 ] 16842746
-		mem[ 13 ] 196611
-		mem[ 14 ] 16777217
-		mem[ 15 ] 131075
-		mem[ 16 ] 25165824
-		mem[ 17 ] -1
-		mem[ 18 ] 1
-		mem[ 19 ] 0
-		mem[ 20 ] 6
-	registers:
-		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 2
-		reg[ 3 ] 1
-		reg[ 4 ] -1
-		reg[ 5 ] 4
-		reg[ 6 ] 2
-		reg[ 7 ] 0
-end state
-
-@@@
-state:
-	pc 12
-	memory:
-		mem[ 1 ] 8519698
-		mem[ 2 ] 8585235
-		mem[ 3 ] 8650769
-		mem[ 4 ] 8716308
-		mem[ 5 ] 16842759
-		mem[ 6 ] 17432584
-		mem[ 7 ] 1703942
-		mem[ 8 ] 131075
-		mem[ 9 ] 393218
-		mem[ 10 ] 2883589
-		mem[ 11 ] 17104900
-		mem[ 12 ] 16842746
-		mem[ 13 ] 196611
-		mem[ 14 ] 16777217
-		mem[ 15 ] 131075
-		mem[ 16 ] 25165824
-		mem[ 17 ] -1
-		mem[ 18 ] 1
-		mem[ 19 ] 0
-		mem[ 20 ] 6
-	registers:
-		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 2
-		reg[ 3 ] 1
-		reg[ 4 ] -1
-		reg[ 5 ] 4
-		reg[ 6 ] 2
-		reg[ 7 ] 0
-end state
-
-@@@
-state:
 	pc 7
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -686,14 +706,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 2
 		reg[ 3 ] 1
 		reg[ 4 ] -1
-		reg[ 5 ] 4
+		reg[ 5 ] 5
 		reg[ 6 ] 2
 		reg[ 7 ] 0
 end state
@@ -702,6 +722,7 @@ end state
 state:
 	pc 8
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -721,14 +742,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 2
 		reg[ 3 ] 1
 		reg[ 4 ] -1
-		reg[ 5 ] 4
+		reg[ 5 ] 5
 		reg[ 6 ] 3
 		reg[ 7 ] 0
 end state
@@ -737,6 +758,7 @@ end state
 state:
 	pc 9
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -756,14 +778,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 2
 		reg[ 3 ] 2
 		reg[ 4 ] -1
-		reg[ 5 ] 4
+		reg[ 5 ] 5
 		reg[ 6 ] 3
 		reg[ 7 ] 0
 end state
@@ -772,6 +794,7 @@ end state
 state:
 	pc 10
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -791,10 +814,46 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
+		reg[ 2 ] 3
+		reg[ 3 ] 2
+		reg[ 4 ] -1
+		reg[ 5 ] 5
+		reg[ 6 ] 3
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 11
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
 		reg[ 2 ] 3
 		reg[ 3 ] 2
 		reg[ 4 ] -1
@@ -805,43 +864,9 @@ end state
 
 @@@
 state:
-	pc 11
-	memory:
-		mem[ 1 ] 8519698
-		mem[ 2 ] 8585235
-		mem[ 3 ] 8650769
-		mem[ 4 ] 8716308
-		mem[ 5 ] 16842759
-		mem[ 6 ] 17432584
-		mem[ 7 ] 1703942
-		mem[ 8 ] 131075
-		mem[ 9 ] 393218
-		mem[ 10 ] 2883589
-		mem[ 11 ] 17104900
-		mem[ 12 ] 16842746
-		mem[ 13 ] 196611
-		mem[ 14 ] 16777217
-		mem[ 15 ] 131075
-		mem[ 16 ] 25165824
-		mem[ 17 ] -1
-		mem[ 18 ] 1
-		mem[ 19 ] 0
-		mem[ 20 ] 6
-	registers:
-		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 3
-		reg[ 3 ] 2
-		reg[ 4 ] -1
-		reg[ 5 ] 3
-		reg[ 6 ] 3
-		reg[ 7 ] 0
-end state
-
-@@@
-state:
 	pc 12
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -861,14 +886,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 3
 		reg[ 3 ] 2
 		reg[ 4 ] -1
-		reg[ 5 ] 3
+		reg[ 5 ] 4
 		reg[ 6 ] 3
 		reg[ 7 ] 0
 end state
@@ -877,6 +902,7 @@ end state
 state:
 	pc 7
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -896,14 +922,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 3
 		reg[ 3 ] 2
 		reg[ 4 ] -1
-		reg[ 5 ] 3
+		reg[ 5 ] 4
 		reg[ 6 ] 3
 		reg[ 7 ] 0
 end state
@@ -912,6 +938,7 @@ end state
 state:
 	pc 8
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -931,14 +958,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 3
 		reg[ 3 ] 2
 		reg[ 4 ] -1
-		reg[ 5 ] 3
+		reg[ 5 ] 4
 		reg[ 6 ] 5
 		reg[ 7 ] 0
 end state
@@ -947,6 +974,7 @@ end state
 state:
 	pc 9
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -966,14 +994,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 3
 		reg[ 3 ] 3
 		reg[ 4 ] -1
-		reg[ 5 ] 3
+		reg[ 5 ] 4
 		reg[ 6 ] 5
 		reg[ 7 ] 0
 end state
@@ -982,6 +1010,7 @@ end state
 state:
 	pc 10
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1001,10 +1030,46 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
+		reg[ 2 ] 5
+		reg[ 3 ] 3
+		reg[ 4 ] -1
+		reg[ 5 ] 4
+		reg[ 6 ] 5
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 11
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
 		reg[ 2 ] 5
 		reg[ 3 ] 3
 		reg[ 4 ] -1
@@ -1015,43 +1080,9 @@ end state
 
 @@@
 state:
-	pc 11
-	memory:
-		mem[ 1 ] 8519698
-		mem[ 2 ] 8585235
-		mem[ 3 ] 8650769
-		mem[ 4 ] 8716308
-		mem[ 5 ] 16842759
-		mem[ 6 ] 17432584
-		mem[ 7 ] 1703942
-		mem[ 8 ] 131075
-		mem[ 9 ] 393218
-		mem[ 10 ] 2883589
-		mem[ 11 ] 17104900
-		mem[ 12 ] 16842746
-		mem[ 13 ] 196611
-		mem[ 14 ] 16777217
-		mem[ 15 ] 131075
-		mem[ 16 ] 25165824
-		mem[ 17 ] -1
-		mem[ 18 ] 1
-		mem[ 19 ] 0
-		mem[ 20 ] 6
-	registers:
-		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 5
-		reg[ 3 ] 3
-		reg[ 4 ] -1
-		reg[ 5 ] 2
-		reg[ 6 ] 5
-		reg[ 7 ] 0
-end state
-
-@@@
-state:
 	pc 12
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1071,14 +1102,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 5
 		reg[ 3 ] 3
 		reg[ 4 ] -1
-		reg[ 5 ] 2
+		reg[ 5 ] 3
 		reg[ 6 ] 5
 		reg[ 7 ] 0
 end state
@@ -1087,6 +1118,7 @@ end state
 state:
 	pc 7
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1106,14 +1138,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 5
 		reg[ 3 ] 3
 		reg[ 4 ] -1
-		reg[ 5 ] 2
+		reg[ 5 ] 3
 		reg[ 6 ] 5
 		reg[ 7 ] 0
 end state
@@ -1122,6 +1154,7 @@ end state
 state:
 	pc 8
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1141,14 +1174,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 5
 		reg[ 3 ] 3
 		reg[ 4 ] -1
-		reg[ 5 ] 2
+		reg[ 5 ] 3
 		reg[ 6 ] 8
 		reg[ 7 ] 0
 end state
@@ -1157,6 +1190,7 @@ end state
 state:
 	pc 9
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1176,14 +1210,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 5
 		reg[ 3 ] 5
 		reg[ 4 ] -1
-		reg[ 5 ] 2
+		reg[ 5 ] 3
 		reg[ 6 ] 8
 		reg[ 7 ] 0
 end state
@@ -1192,6 +1226,7 @@ end state
 state:
 	pc 10
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1211,10 +1246,46 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
+		reg[ 2 ] 8
+		reg[ 3 ] 5
+		reg[ 4 ] -1
+		reg[ 5 ] 3
+		reg[ 6 ] 8
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 11
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
 		reg[ 2 ] 8
 		reg[ 3 ] 5
 		reg[ 4 ] -1
@@ -1225,43 +1296,9 @@ end state
 
 @@@
 state:
-	pc 11
-	memory:
-		mem[ 1 ] 8519698
-		mem[ 2 ] 8585235
-		mem[ 3 ] 8650769
-		mem[ 4 ] 8716308
-		mem[ 5 ] 16842759
-		mem[ 6 ] 17432584
-		mem[ 7 ] 1703942
-		mem[ 8 ] 131075
-		mem[ 9 ] 393218
-		mem[ 10 ] 2883589
-		mem[ 11 ] 17104900
-		mem[ 12 ] 16842746
-		mem[ 13 ] 196611
-		mem[ 14 ] 16777217
-		mem[ 15 ] 131075
-		mem[ 16 ] 25165824
-		mem[ 17 ] -1
-		mem[ 18 ] 1
-		mem[ 19 ] 0
-		mem[ 20 ] 6
-	registers:
-		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 8
-		reg[ 3 ] 5
-		reg[ 4 ] -1
-		reg[ 5 ] 1
-		reg[ 6 ] 8
-		reg[ 7 ] 0
-end state
-
-@@@
-state:
 	pc 12
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1281,14 +1318,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 8
 		reg[ 3 ] 5
 		reg[ 4 ] -1
-		reg[ 5 ] 1
+		reg[ 5 ] 2
 		reg[ 6 ] 8
 		reg[ 7 ] 0
 end state
@@ -1297,6 +1334,7 @@ end state
 state:
 	pc 7
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1316,14 +1354,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 8
 		reg[ 3 ] 5
 		reg[ 4 ] -1
-		reg[ 5 ] 1
+		reg[ 5 ] 2
 		reg[ 6 ] 8
 		reg[ 7 ] 0
 end state
@@ -1332,6 +1370,7 @@ end state
 state:
 	pc 8
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1351,14 +1390,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 8
 		reg[ 3 ] 5
 		reg[ 4 ] -1
-		reg[ 5 ] 1
+		reg[ 5 ] 2
 		reg[ 6 ] 13
 		reg[ 7 ] 0
 end state
@@ -1367,6 +1406,7 @@ end state
 state:
 	pc 9
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1386,14 +1426,14 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 8
 		reg[ 3 ] 8
 		reg[ 4 ] -1
-		reg[ 5 ] 1
+		reg[ 5 ] 2
 		reg[ 6 ] 13
 		reg[ 7 ] 0
 end state
@@ -1402,6 +1442,7 @@ end state
 state:
 	pc 10
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1421,10 +1462,46 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
+		reg[ 2 ] 13
+		reg[ 3 ] 8
+		reg[ 4 ] -1
+		reg[ 5 ] 2
+		reg[ 6 ] 13
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 11
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
 		reg[ 2 ] 13
 		reg[ 3 ] 8
 		reg[ 4 ] -1
@@ -1435,8 +1512,9 @@ end state
 
 @@@
 state:
-	pc 11
+	pc 12
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1456,15 +1534,195 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
+		reg[ 1 ] 7
 		reg[ 2 ] 13
 		reg[ 3 ] 8
+		reg[ 4 ] -1
+		reg[ 5 ] 1
+		reg[ 6 ] 13
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 7
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 13
+		reg[ 3 ] 8
+		reg[ 4 ] -1
+		reg[ 5 ] 1
+		reg[ 6 ] 13
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 8
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 13
+		reg[ 3 ] 8
+		reg[ 4 ] -1
+		reg[ 5 ] 1
+		reg[ 6 ] 21
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 9
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 13
+		reg[ 3 ] 13
+		reg[ 4 ] -1
+		reg[ 5 ] 1
+		reg[ 6 ] 21
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 10
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 21
+		reg[ 3 ] 13
+		reg[ 4 ] -1
+		reg[ 5 ] 1
+		reg[ 6 ] 21
+		reg[ 7 ] 0
+end state
+
+@@@
+state:
+	pc 11
+	memory:
+		mem[ 0 ] 8454164
+		mem[ 1 ] 8519698
+		mem[ 2 ] 8585235
+		mem[ 3 ] 8650769
+		mem[ 4 ] 8716308
+		mem[ 5 ] 16842759
+		mem[ 6 ] 17432584
+		mem[ 7 ] 1703942
+		mem[ 8 ] 131075
+		mem[ 9 ] 393218
+		mem[ 10 ] 2883589
+		mem[ 11 ] 17104900
+		mem[ 12 ] 16842746
+		mem[ 13 ] 196611
+		mem[ 14 ] 16777217
+		mem[ 15 ] 131075
+		mem[ 16 ] 25165824
+		mem[ 17 ] -1
+		mem[ 18 ] 1
+		mem[ 19 ] 0
+		mem[ 20 ] 7
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 7
+		reg[ 2 ] 21
+		reg[ 3 ] 13
 		reg[ 4 ] -1
 		reg[ 5 ] 0
-		reg[ 6 ] 13
+		reg[ 6 ] 21
 		reg[ 7 ] 0
 end state
 
@@ -1472,6 +1730,7 @@ end state
 state:
 	pc 16
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1491,26 +1750,27 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 13
-		reg[ 3 ] 8
+		reg[ 1 ] 7
+		reg[ 2 ] 21
+		reg[ 3 ] 13
 		reg[ 4 ] -1
 		reg[ 5 ] 0
-		reg[ 6 ] 13
+		reg[ 6 ] 21
 		reg[ 7 ] 0
 end state
 
 machine halted
-total of 43 instructions executed
+total of 49 instructions executed
 final state of machine:
 
 @@@
 state:
 	pc 17
 	memory:
+		mem[ 0 ] 8454164
 		mem[ 1 ] 8519698
 		mem[ 2 ] 8585235
 		mem[ 3 ] 8650769
@@ -1530,15 +1790,15 @@ state:
 		mem[ 17 ] -1
 		mem[ 18 ] 1
 		mem[ 19 ] 0
-		mem[ 20 ] 6
+		mem[ 20 ] 7
 	registers:
 		reg[ 0 ] 0
-		reg[ 1 ] 6
-		reg[ 2 ] 13
-		reg[ 3 ] 8
+		reg[ 1 ] 7
+		reg[ 2 ] 21
+		reg[ 3 ] 13
 		reg[ 4 ] -1
 		reg[ 5 ] 0
-		reg[ 6 ] 13
+		reg[ 6 ] 21
 		reg[ 7 ] 0
 end state
 

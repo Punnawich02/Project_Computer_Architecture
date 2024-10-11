@@ -76,7 +76,7 @@ public class Assembler {
                         System.exit(1);
                     }
                 } else if (opcode.equals(".fill")) {
-                    if(instruction_line.length < 3){
+                    if(instruction_line.length != 3){
                         System.out.println("Invalid field: Must have 1 field in .fill");
                         System.out.println("At line: "+(a+1));
                         System.exit(1);
@@ -120,6 +120,8 @@ public class Assembler {
                 field2 = list_of_instruction.get(i)[3];
                 field3 = list_of_instruction.get(i)[4];
 
+
+
                 // Check Label
                 checkLabel(label,i);
 
@@ -129,6 +131,14 @@ public class Assembler {
                         System.out.println("At line: "+(i+1));
                         System.exit(1);
                     }
+                    System.out.println("field 1: "+(Integer.parseInt(field1)>8));
+                    System.out.println("field 2: "+(Integer.parseInt(field2)>8));
+                    System.out.println("field 3: "+(Integer.parseInt(field3)>8));
+//                    if (Integer.parseInt(field1) > 8 || Integer.parseInt(field2) > 8 || Integer.parseInt(field3) > 8){
+//                        System.out.println("Invalid Input: Register field must less than 7");
+//                        System.out.println("At line: "+(i+1));
+//                        System.exit(1);
+//                    }
                     list_of_MachineCode.add(c.RType_to_MachineCode(opcode, field1, field2, field3));
                 } else if (opcode.equals("lw") || opcode.equals("sw")) {
                     if (!isNumber(field1) || !isNumber(field2)) {
@@ -171,11 +181,17 @@ public class Assembler {
                         System.out.println("At line: "+(i+1));
                         System.exit(1);
                     }
+
                     list_of_MachineCode.add(c.JType_to_MachineCode(opcode, field1, field2));
                 } else if (opcode.equals("halt") || opcode.equals("noop")) {
                     list_of_MachineCode.add(c.OType_to_MachineCode(opcode));
                 } else if (opcode.equals(".fill")) {
                     if (!isNumber(field1)) {
+                        if(map.get(field1) == null){
+                            System.out.println("Invalid Field: Don't know symbolic address");
+                            System.out.println("At line: "+(i+1));
+                            System.exit(1);
+                        }
                         field1 = String.valueOf(map.get(field1));
                     } else if(Integer.parseInt(field1) < -32768 || Integer.parseInt(field1) > 32767){
                         System.out.println("Invalid Offset Field: The offset exceeds the 16-bit limit.");
@@ -229,7 +245,6 @@ public class Assembler {
         }
     }
 
-    //
     public void checkLabel(String label,int i){
         if( !label.isBlank() ){
 

@@ -27,7 +27,7 @@ public class Decoder {
             int[] reg = state.getRegister();
 
             // Call printState before instruction executes
-            //printState();
+            printState();
             writer.write(writeState());
 
             if(opcode == 0b000 || opcode == 0b001){     // R-type
@@ -68,7 +68,7 @@ public class Decoder {
         writer.write("final state of machine:\n\n");
 
         // Call printState before exit
-        //printState();
+        printState();
         writer.write(writeState());
 
         writer.close();
@@ -83,9 +83,7 @@ public class Decoder {
         System.out.println("\tmemory:");
         int[] mem = state.getInstructionMem();
         for(int i=0;i<line_count;i++){
-            if(i != 0){
-                System.out.println("\t\tmem[ "+i+" ] "+mem[i]);
-            }
+            System.out.println("\t\tmem[ "+i+" ] "+mem[i]);
         }
         System.out.println("\tregisters:");
         int[] reg = state.getRegister();
@@ -103,9 +101,7 @@ public class Decoder {
         int[] mem = state.getInstructionMem();
         int i = 0;
         for(int j=0;j<line_count;j++){
-            if( j != 0){
-                s.append("\t\tmem[ ").append(i).append(" ] ").append(mem[j]).append("\n");
-            }
+            s.append("\t\tmem[ ").append(i).append(" ] ").append(mem[j]).append("\n");
             i++;
         }
 

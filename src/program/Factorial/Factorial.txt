@@ -1,19 +1,21 @@
-            lw      0       1       base
-            lw      0       2       exp
-            lw      0       3       one
-expl        beq     2       0       done
-            lw      0       4       zero
-            beq     1       0       done
-mult        beq     1       0       next
-            add     4       3       4
-            add     1       minus1  1
-            beq     0       0       mult
-next        add     0       4       3
-            add     2       minus1  2
-            beq     0       0       expl
-done        halt
-base        .fill   2           # ฐาน
-exp         .fill   3           # ยกกำลัง
-zero        .fill   0
-one         .fill   1
-minus1      .fill   -1
+        lw      0       1       n           # โหลดค่า n
+        lw      0       2       one         # โหลดค่า 1 (F(1))
+        lw      0       3       zero        # โหลดค่า 0 (F(0))
+        lw      0       4       minus       # โหลดค่า -1
+        lw      0       5       n           # เตรียมค่า n สำหรับ loop
+        beq     0       1       base0       # ถ้า n == 0 ให้ข้ามไปที่ base0
+        beq     1       2       base1       # ถ้า n == 1 ให้ข้ามไปที่ base1
+loop    add     5       4       6           # temp  =  n-1
+        add     0       2       3           # F(n-2) = F(n-1)
+        add     0       6       2           # F(n-1) = temp
+        add     5       4       5           # ลดค่า n ลง 1
+        beq     0       5       done        # ถ้า n == 0 ให้ข้ามไป done
+        beq     0       0       loop        # กระโดดกลับไป loop
+base0   add     0       3       3           # F(0) = 0
+        beq     0       0       done        # จบการทำงาน
+base1   add     0       2       3           # F(1) = 1
+done    halt                                # หยุดโปรแกรม
+minus   .fill   -1
+one     .fill   1
+zero    .fill   0
+n       .fill   3

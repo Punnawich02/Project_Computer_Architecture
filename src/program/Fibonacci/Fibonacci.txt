@@ -18,4 +18,4 @@ done    halt                                # หยุดโปรแกรม
 minus   .fill   -1
 one     .fill   1
 zero    .fill   0
-n       .fill   6           # ค่าเริ่มต้น n = 7
+n       .fill   7
