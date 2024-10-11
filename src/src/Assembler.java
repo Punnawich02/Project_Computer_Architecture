@@ -131,18 +131,40 @@ public class Assembler {
                         System.out.println("At line: "+(i+1));
                         System.exit(1);
                     }
-                    System.out.println("field 1: "+(Integer.parseInt(field1)>8));
-                    System.out.println("field 2: "+(Integer.parseInt(field2)>8));
-                    System.out.println("field 3: "+(Integer.parseInt(field3)>8));
-//                    if (Integer.parseInt(field1) > 8 || Integer.parseInt(field2) > 8 || Integer.parseInt(field3) > 8){
-//                        System.out.println("Invalid Input: Register field must less than 7");
-//                        System.out.println("At line: "+(i+1));
-//                        System.exit(1);
-//                    }
+                    if (Integer.parseInt(field1) > 7 || Integer.parseInt(field2) > 7 || Integer.parseInt(field3) > 7){
+                        System.out.println("Invalid Input: Register field must less than 7");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
+                    if (Integer.parseInt(field1) < 0 || Integer.parseInt(field2) < 0 || Integer.parseInt(field3) < 0){
+                        System.out.println("Invalid Input: Register field must more than 0");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
+                    if(field3.equals("0")){
+                        System.out.println("Invalid Output: Can not change value at Register 0");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
                     list_of_MachineCode.add(c.RType_to_MachineCode(opcode, field1, field2, field3));
                 } else if (opcode.equals("lw") || opcode.equals("sw")) {
                     if (!isNumber(field1) || !isNumber(field2)) {
                         System.out.println("Invalid Input: The field must contain a valid register number.");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
+                    if (Integer.parseInt(field1) > 7 || Integer.parseInt(field2) > 7){
+                        System.out.println("Invalid Input: Register field must less than 7");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
+                    if (Integer.parseInt(field1) < 0 || Integer.parseInt(field2) < 0){
+                        System.out.println("Invalid Input: Register field must more than 0");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
+                    if(field2.equals("0") && opcode.equals("lw")){
+                        System.out.println("Invalid Output: Can not change value at Register 0");
                         System.out.println("At line: "+(i+1));
                         System.exit(1);
                     }
@@ -163,6 +185,16 @@ public class Assembler {
                         System.out.println("At line: "+(i+1));
                         System.exit(1);
                     }
+                    if (Integer.parseInt(field1) > 7 || Integer.parseInt(field2) > 7){
+                        System.out.println("Invalid Input: Register field must less than 7");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
+                    if (Integer.parseInt(field1) < 0 || Integer.parseInt(field2) < 0){
+                        System.out.println("Invalid Input: Register field must more than 0");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
                     if (!isNumber(field3)) {
                         if(map.get(field3) == null){
                             System.out.println("Invalid Input: Undefined symbolic address detected.");
@@ -178,6 +210,16 @@ public class Assembler {
                 } else if (opcode.equals("jalr")) {
                     if (!isNumber(field1) || !isNumber(field2)) {
                         System.out.println("Invalid Input: The field must contain a valid register number.");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
+                    if (Integer.parseInt(field1) > 7 || Integer.parseInt(field2) > 7){
+                        System.out.println("Invalid Input: Register field must less than 7");
+                        System.out.println("At line: "+(i+1));
+                        System.exit(1);
+                    }
+                    if (Integer.parseInt(field1) < 0 || Integer.parseInt(field2) < 0){
+                        System.out.println("Invalid Input: Register field must more than 0");
                         System.out.println("At line: "+(i+1));
                         System.exit(1);
                     }
