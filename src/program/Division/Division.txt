@@ -1,0 +1,36 @@
+        lw      0       2       dvisor
+        lw      0       1       check           :$1 = check
+        lw      0       5       one             :$5 = 1
+        nand    2       1       6               :$6 = nand
+loop1   sw      4       2       stack
+        add     5       4       4
+        add     2       2       2
+        nand    2       1       7               :$7 = nand
+        beq     6       7       loop1
+        lw      0       1       dviden          :$1 = dviden
+loop2   add     3       3       3
+        lw      0       6       minus           :$6 = -1
+        add     4       6       4
+        lw      4       7       stack           :$7 = st
+        nand    7       7       6               :$6 = nand
+        add     5       6       6               :$6 = -st
+        add     1       6       1
+        lw      0       6       check           :$6 = check
+        lw      0       5       minus           :$5 = -1
+        nand    1       6       6               :$6 = nand
+        beq     5       6       if
+        lw      0       5       one             :$5 = 1
+        add     1       7       1
+        beq     0       4       done
+        beq     0       0       loop2
+if      lw      0       5       one             :$5 = 1
+        add     3       5       3
+        beq     0       4       done
+        beq     0       0       loop2
+done    halt
+minus   .fill   -1
+one     .fill   1
+dviden  .fill   555559
+dvisor  .fill   55
+check   .fill   -2147483648
+stack   .fill   0

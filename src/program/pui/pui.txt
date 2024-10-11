@@ -1,0 +1,43 @@
+            lw          0           1           n           # $1 = memory[n]
+            lw          0           2           r           # $2 = memory[r]
+            lw          0           4           pos1        # $4 = 1
+            lw          0           6           comAdr      # $3 = comAdr
+            jalr        6           7                       # call combi
+            halt
+combi       beq         0           2           bc   #if r = 0 jump to base_case
+            beq         1           2           bc   #if n = r jump to base_case
+            sw          5           7           stack       #mem[5+0] = $7
+            add         5           4           5           #stack add 1
+            lw          0           4           neg1        #$4 = -1
+            add         1           4           1           #$1 = n-1
+            lw          0           4           pos1        #$4 = 1
+            sw          5           3           stack       #store combi(n-1,r) in $3
+            add         5           4           5           #stack add 1
+            sw          5           1           stack       #store n-1 to stack$5
+            add         5           4           5           #stack add 1
+            sw          5           2           stack       #store r to stack
+            add         5           4           5           #stack add 1
+            jalr        6           7                       #jump to combi
+            lw          0           4           neg1        #$4 = -1
+            add         5           4           5           #stack-1
+            lw          5           2           stack       #load r
+            add         5           4           5           #stack-1
+            lw          5           1           stack       #load n
+            add         2           4           2           #$2 = r-1
+            lw          0           4           pos1        #$4 = 1
+            jalr        6           7                       #jump to combi
+            lw          0           4           neg1        #$4 = -1
+            add         5           4           5           #stack-1
+            lw          5           4           stack       #$4 = stack+$5 ; $4=combi(n-1,r)
+            add         3           4           3           #$3=$4+$3 mean
+            add         5           4           5        #stack-1
+            lw          5           7           stack       #load addr from stack$5
+            jalr        7           6                       #go to halt
+bc          lw          0           3           pos1        # load 1 to $3
+            jalr        7           3                       #jump to halt
+pos1        .fill       1                                   # constant 1
+neg1        .fill       -1                                  # constant -1
+n           .fill       7                                   # n = 7
+r           .fill       3                                   # r = 3
+comAdr      .fill       combi                               #
+stack       .fill       0                                   # start of stack

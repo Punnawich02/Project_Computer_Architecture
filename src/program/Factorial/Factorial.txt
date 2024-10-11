@@ -1,0 +1,19 @@
+            lw      0       1       base
+            lw      0       2       exp
+            lw      0       3       one
+expl        beq     2       0       done
+            lw      0       4       zero
+            beq     1       0       done
+mult        beq     1       0       next
+            add     4       3       4
+            add     1       minus1  1
+            beq     0       0       mult
+next        add     0       4       3
+            add     2       minus1  2
+            beq     0       0       expl
+done        halt
+base        .fill   2           # ฐาน
+exp         .fill   3           # ยกกำลัง
+zero        .fill   0
+one         .fill   1
+minus1      .fill   -1

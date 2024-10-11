@@ -1,0 +1,19 @@
+        lw      0       2       mcand
+        lw      0       3       mplier
+        lw      0       4       nander
+        lw      0       5       count
+        lw      0       6       minus
+loop    add     1       1       1
+        nand    3       4       7
+        beq     6       7       sl
+        add     1       2       1
+sl      add     3       3       3
+        add     6       5       5
+        beq     0       5       done
+        beq     0       0       loop
+done    halt
+minus        .fill   -1
+count        .fill   15
+mcand        .fill   32766
+mplier       .fill   10383
+nander       .fill   16384
