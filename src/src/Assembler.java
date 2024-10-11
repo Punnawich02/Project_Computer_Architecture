@@ -26,6 +26,7 @@ public class Assembler {
             List<String[]> list_of_instruction = new LinkedList<>();
 
             // Cut a string and filter
+            int a=0;
             while ((line = bufferedReader.readLine()) != null) {
                 instruction_line = line.split("\\s+");
 
@@ -43,19 +44,43 @@ public class Assembler {
                 String field1 = "", field2 = "", field3 = "";
 
                 if (opcode.equals("add") || opcode.equals("nand")) {
+                    if(instruction_line.length < 5){
+                        System.out.println("Invalid field: Must have 3 field in add or nand");
+                        System.out.println("At line: "+(a+1));
+                        System.exit(1);
+                    }
                     field1 = instruction_line[2];
                     field2 = instruction_line[3];
                     field3 = instruction_line[4];
                 } else if (opcode.equals("lw") || opcode.equals("sw") || opcode.equals("beq")) {
+                    if(instruction_line.length < 5){
+                        System.out.println("Invalid field: Must have 3 field in lw ,sw or beq");
+                        System.out.println("At line: "+(a+1));
+                        System.exit(1);
+                    }
                     field1 = instruction_line[2];
                     field2 = instruction_line[3];
                     field3 = instruction_line[4];
                 } else if (opcode.equals("jalr")) {
+                    if(instruction_line.length < 4){
+                        System.out.println("Invalid field: Must have 2 field in jalr");
+                        System.out.println("At line: "+(a+1));
+                        System.exit(1);
+                    }
                     field1 = instruction_line[2];
                     field2 = instruction_line[3];
                 } else if (opcode.equals("halt") || opcode.equals("noop")) {
-                    // No fields needed
+                    if(instruction_line.length < 2){
+                        System.out.println("Invalid field: Don't have any field in halt or noop");
+                        System.out.println("At line: "+(a+1));
+                        System.exit(1);
+                    }
                 } else if (opcode.equals(".fill")) {
+                    if(instruction_line.length < 3){
+                        System.out.println("Invalid field: Must have 1 field in .fill");
+                        System.out.println("At line: "+(a+1));
+                        System.exit(1);
+                    }
                     field1 = instruction_line[2];
                 }
 
@@ -66,6 +91,7 @@ public class Assembler {
                 instruction_line1[4] = field3;
 
                 list_of_instruction.add(instruction_line1);
+                a++;
             }
 
             // Map symbolic and there address

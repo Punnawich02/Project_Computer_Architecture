@@ -27,7 +27,7 @@ public class Decoder {
             int[] reg = state.getRegister();
 
             // Call printState before instruction executes
-            printState();
+            //printState();
             writer.write(writeState());
 
             if(opcode == 0b000 || opcode == 0b001){     // R-type
@@ -68,7 +68,7 @@ public class Decoder {
         writer.write("final state of machine:\n\n");
 
         // Call printState before exit
-        printState();
+        //printState();
         writer.write(writeState());
 
         writer.close();
