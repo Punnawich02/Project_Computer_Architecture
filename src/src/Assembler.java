@@ -72,6 +72,7 @@ public class Assembler {
             for (int i = 0; i < list_of_instruction.size(); i++) {
                 if(map.containsKey(list_of_instruction.get(i)[0])){
                     System.out.println("Invalid Label: Duplicate labels detected in the program.");
+                    System.out.println("At line: "+(i+1));
                     System.exit(1);
                 }
 
