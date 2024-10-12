@@ -30,7 +30,7 @@ if      lw      0       5       one             :$5 = 1
 done    halt
 minus   .fill   -1
 one     .fill   1
-dviden  .fill   555
+dviden  .fill   555559
 dvisor  .fill   55
 check   .fill   -2147483648
 stack   .fill   0

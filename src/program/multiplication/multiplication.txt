@@ -1,19 +1,19 @@
-        lw      0       2       mcand      # โหลดค่า mcand ลงใน $2
-        lw      0       3       mplier     # โหลดค่า mplier ลงใน $3
-        lw      0       4       nander     # โหลดค่า nander ลงใน $4
-        lw      0       5       count      # โหลดค่า count ลงใน $5
-        lw      0       6       minus      # โหลดค่า -1 ลงใน $6
-loop    add     1       1       1           # เพิ่มค่าใน $1 (การนับผลลัพธ์)
-        nand    3       4       7               # คำนวณ NAND ระหว่าง mplier และ nander ลงใน $7
-        beq     6       7       sl              # ตรวจสอบว่า -1 เท่ากับค่าใน $7 ถ้าใช่ ไปที่ label sl
-        add     1       2       1               # ถ้าไม่ใช่ ให้นำค่า mcand มาบวกกับผลลัพธ์ใน $1
-sl      add     3       3       3               # เพิ่มค่า mplier ขึ้น 1
-        add     6       5       5               # เพิ่มค่าตัวนับ
-        beq     0       5       done            # ถ้าตัวนับเท่ากับค่า count ให้ไปที่ done
-        beq     0       0       loop            # ถ้าไม่ เท่ากับให้กลับไปที่ loop
-done    halt                                    # หยุดโปรแกรม
-minus   .fill   -1
-count   .fill   15
-mcand   .fill   32766
-mplier  .fill   10383
-nander  .fill   16384
+        lw      0       2       mcand
+        lw      0       3       mplier
+        lw      0       4       nander
+        lw      0       5       count
+        lw      0       6       minus
+loop    add     1       1       1
+        nand    3       4       7
+        beq     6       7       sl
+        add     1       2       1
+sl      add     3       3       3
+        add     6       5       5
+        beq     0       5       done
+        beq     0       0       loop
+done    halt
+minus        .fill   -1
+count        .fill   15
+mcand        .fill   32766
+mplier       .fill   10383
+nander       .fill   16384

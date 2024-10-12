@@ -1,21 +1,37 @@
         lw      0       1       n           # โหลดค่า n
         lw      0       2       one         # โหลดค่า 1 (F(1))
-        lw      0       3       zero        # โหลดค่า 0 (F(0))
+        lw      0       3       two        # โหลดค่า 0 (F(0))
         lw      0       4       minus       # โหลดค่า -1
-        lw      0       5       n           # เตรียมค่า n สำหรับ loop
+        lw      0       5       count      # โหลดค่า count ลงใน $5
+        lw      0       6       n           # โหลด n มาใช้ใน loop
         beq     0       1       base0       # ถ้า n == 0 ให้ข้ามไปที่ base0
         beq     1       2       base1       # ถ้า n == 1 ให้ข้ามไปที่ base1
-loop    add     5       4       6           # temp  =  n-1
-        add     0       2       3           # F(n-2) = F(n-1)
-        add     0       6       2           # F(n-1) = temp
-        add     5       4       5           # ลดค่า n ลง 1
-        beq     0       5       done        # ถ้า n == 0 ให้ข้ามไป done
+        beq     2       3       base2       # ถ้า n == 2 ให้ข้ามไปที่ base2
+        add     3       2       6           # temp  =  n-1
+cal     beq     1       5       done
+        add     7       4       7
+        add     5       2       5
+        beq     5       6       test
+        beq     0       0       cal
+test    add     0       5       3
+        add     3       2       6
+        add     0       7       4
+        beq     1       5       loop
+        add     0       0       5
+        beq     0       0      cal
+loop    beq     1       5       done
+        add     0       0       5
+        add     7       4       7           # n-1 + 0 ลงใน 7
+        add     5       2       5           # บวกค่า count
         beq     0       0       loop        # กระโดดกลับไป loop
-base0   add     0       3       3           # F(0) = 0
+base0   add     0       2       3           # 0! = 1
         beq     0       0       done        # จบการทำงาน
-base1   add     0       2       3           # F(1) = 1
+base2   add     0       3       3           # 2! = 2
+        beq     0       0       done        # จบการทำงาน
+base1   add     0       2       3           # 1! = 1
 done    halt                                # หยุดโปรแกรม
-minus   .fill   -1
+minus   .fill   2
 one     .fill   1
-zero    .fill   0
+two    .fill    2
+count  .fill    0
 n       .fill   3

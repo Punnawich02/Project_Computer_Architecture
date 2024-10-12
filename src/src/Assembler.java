@@ -76,11 +76,6 @@ public class Assembler {
                         System.exit(1);
                     }
                 } else if (opcode.equals(".fill")) {
-                    if(instruction_line.length != 3){
-                        System.out.println("Invalid field: Must have 1 field in .fill");
-                        System.out.println("At line: "+(a+1));
-                        System.exit(1);
-                    }
                     field1 = instruction_line[2];
                 }
 
@@ -235,7 +230,7 @@ public class Assembler {
                             System.exit(1);
                         }
                         field1 = String.valueOf(map.get(field1));
-                    } else if(Integer.parseInt(field1) < -32768 || Integer.parseInt(field1) > 32767){
+                    } else if(Integer.parseInt(field1) < (-1*Math.pow(2,32)) || Integer.parseInt(field1) > (Math.pow(2,32)-1)){
                         System.out.println("Invalid Offset Field: The offset exceeds the 16-bit limit.");
                         System.out.println("At line: "+(i+1));
                         System.exit(1);
